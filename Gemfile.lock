@@ -78,7 +78,7 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    concurrent-ruby (1.1.5)
+   concurrent-ruby (1.1.5)
     crass (1.0.5)
     erubi (1.9.0)
     ffi (1.11.3)
@@ -205,7 +205,11 @@ DEPENDENCIES
   capistrano (~> 3.11)
   capistrano-passenger (~> 0.2.0)
   capistrano-rails (~> 1.4)
+<<<<<<< HEAD
   capistrano-rvm
+=======
+  capistrano-rbenv (~> 2.1, >= 2.1.4)
+>>>>>>> 98cc4c899995293b2538d0657f20bfe1095af982
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.2)
   puma (~> 4.1)
