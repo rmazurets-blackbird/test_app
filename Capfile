@@ -43,4 +43,4 @@ Dir.glob("lib/capistrano/tasks/*.rake").each { |r| import r }
 
 
 set :rvm_type, :user
-set :rvm_ruby, '2.6.5'
+set :rvm_ruby, '2.6.3'
